@@ -1,0 +1,444 @@
+
+
+
+
+
+
+/* css */
+
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap');*/
+
+.container{
+    
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+/*                              hier begint de header*/
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+#imgheader{
+    margin-left: 138px;
+    margin-top: 20px;
+}
+
+ul{
+    float: right;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    line-height: 50px;
+    padding: 20px;
+    font-family: 'Montserrat-bold';
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+/*                              hier begint section1 */
+
+#section1{
+    height: 700px;
+    background: linear-gradient(rgba(29,0,255,0.8), rgba(0,118,255,0.8)), url("../img/daria-nepriakhina-736026-unsplash.jpg"); 
+    background-size: cover;
+    margin: 0 auto;
+    top: 100px;
+}
+
+h1{
+    font-family: 'PlayfairDisplay-bold';
+    color: white;
+    font-size: 3em;
+    line-height: 60px;
+}
+
+p{
+    font-family: 'Montserrat-medium';
+    font-size: 1.375em;
+    color: white;
+    line-height: 27px;
+}
+
+#titelblok{
+    position: relative;
+    display: block;
+    max-width: 725px;
+    height: 330px;
+    margin: 0 auto;
+    top: 175px;
+}
+
+#titelbloktekst{
+    max-width: 720px;
+    margin-top: 30px;
+}
+
+/*                              hier begint section2 */
+
+#section2{
+    max-width: 1208px;
+    position: relative;
+    margin: 0 auto;
+    top: -160px;
+    background-color: white;
+}
+
+.ui-accordion-header{
+    border: 1px solid #EBEBEB;
+    height: 70px;
+}
+
+#accordion{
+    position: relative;
+    top: 75px;
+}
+
+.titelvideoblok{
+    display: block;
+    margin-left: 60px;
+    color: #1D00FF;
+}
+
+
+h3{
+    font-family: 'Montserrat-bold';
+    font-size: 1.125em;
+    color: #4B4B4B;
+}
+
+.pijl{
+    width: 40px;
+    float: left;
+    margin-top: 15px;
+}
+
+.afvinkbutton{
+    width: 80px;
+    height: 40px;
+    background-color:#BBFFB2;
+    float: right;
+    border-radius: 20px;
+    margin-top: -30px;
+    display: block;
+    margin-right: 575px;
+}
+
+#rozebutton{
+    width: 115px;
+    height: 40px;
+    background-color: #FFAFE3;
+    float: right;
+    border-radius: 20px;
+    margin-top: -30px;
+    display: block;
+    margin-right: 20px;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 0.875em;
+    color: #CC0085;
+}
+
+.blauwebutton{
+    width: 146px;
+    height: 40px;
+    background-color: #D1E7FF;
+    float: right;
+    border-radius: 20px;
+    margin-top: -30px;
+    display: block;
+    margin-right: 20px;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 0.750em;
+    color: #1D00FF;
+}
+
+.zwartebutton{
+    width: 195px;
+    height: 40px;
+    background-color: #000000;
+    float: right;
+    border-radius: 15px;
+    margin-top: -30px;
+    display: block;
+    margin-right: 20px;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 0.750em;
+    color: #FFFFFF;
+}
+
+#titelvideo{
+    float: right;
+    margin-right: 800px;
+    margin-top: 25px;
+    display: block;
+}
+
+#tekstvideo2{
+    float: right;
+    margin-top: 25px;
+    margin-right: 720px;
+}
+
+#tekstvideo3{
+    float: right;
+    margin-top: 25px;
+    margin-right: 740px;
+}
+
+#tekstvideo4{
+    float: right;
+    margin-top: 25px;
+    margin-right: 790px;
+}
+
+#tekstvideo5{
+    float: right;
+    margin-top: 25px;
+    margin-right: 680px;
+}
+
+#proberen{
+    position:relative;
+    top: 50px;
+}
+
+.player {
+    width: 100%;
+}
+
+
+/*                              hier begint section3 */
+
+#section3{
+    width: 1088px;
+    position: relative;
+    margin: 0 auto;
+    height: 700px;
+}
+
+#support{
+    color: #1D00FF;
+}
+
+#fotoblokgroot{
+    margin-top: 45px;
+}
+
+#blauweh1{
+    color: #1D00FF;
+}
+
+.persoonblok{
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+
+.fotopersoon img{
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    float: left;
+}
+
+.infopersoon{
+    float: left;
+    margin-top: 7%;
+    margin-left: 15px;
+}
+
+.emailbutton{
+    width: 118px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 15px;
+    display: block;
+
+    font-family: 'Montserrat-bold';
+    font-size: 0.750em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.zwartetekst{
+    color:black;
+}
+
+.grijzetekst{
+    color:#EBEBEB;
+}
+
+
+/*                              hier begint section4 */
+
+#section4{
+    height: 550px;
+    background: linear-gradient(rgba(255,0,255,0.8), rgba(255,0,255,0.8)), url("../img/nicole-wolf-1339717-unsplash.jpg"); 
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tekstblokonder{
+    width: 680px;
+    height: 430px;
+    margin: 0 auto;
+    top: 80px;
+    position: relative;
+}
+
+#tekstonderin{
+    font-family: 'Montserrat-regular';
+    margin-top: 30px;
+}
+
+#blauwebuttononderin{
+    width: 270px;
+    height: 60px;
+    background-color: #1D00FF;
+    border-radius: 11px;
+    display: block;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 1.063em;
+    color: #FFAFE3;
+    margin: 0 auto;
+    margin-top: 65px;
+    
+}
+
+
+/*                              hier begint de footer */
+
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+
+#sun{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+#moon{
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+
+
+#container2{
+    position: absolute;
+    top: 350%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-btn{
+    width: 80px;
+    height: 40px;
+    background: #EBEBEB;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+
+.toggle-btn > .inner-circle{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 40px;
+}
+    
+
+
+.toggle-btn.active > .inner-circle{
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+/*                              responsive*/
+
+@media screen and (max-width: 1200px){
+    header{
+        background-color: pink;
+    }   
+    
+    #section2{
+        width: 1000px;
+    }
+    
+    h3{
+        font-size: 1.000em;
+    }
+    
+    
+
+    
+}
+
+
+@media screen and (max-width: 725px){
+    h1{
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+    
+    #titelblok{
+        width: 500px;
+    }
+    
+    #titelbloktekst{
+        font-size: 0.813em;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+    float: both;
+}
+
